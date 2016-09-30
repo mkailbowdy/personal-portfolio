@@ -71,7 +71,7 @@ nav li a {
 #banner {
     padding: 10% 0;
     opacity: 0;
-    animation-duration: 0.6s;
+    animation-duration: 0.4s;
     animation-name: fadein;
     animation-delay: 0.4s;
     animation-fill-mode: forwards;
@@ -96,11 +96,11 @@ nav li a {
     width: 50%;
 }
 
-#work {
+#work h2{
     opacity: 0;
     animation-duration: 0.6s;
     animation-name: fadein;
-    animation-delay: .8s;
+    animation-delay: .6s;
     animation-fill-mode: forwards;
 }
 
@@ -169,6 +169,7 @@ footer img {
     width: 50px;
 }
 
+/* Entire animation added after the list items in script.js
 #contact {
     opacity: 0;
     animation-duration: 0.8s;
@@ -176,6 +177,7 @@ footer img {
     animation-delay: 1.0s;
     animation-fill-mode: forwards;
 }
+*/
 
 /*****************
 ===================
@@ -206,6 +208,9 @@ nav li a {
         opacity: 1;
     }
 }
+
+
+
 
 @media only screen and (min-width: 500px) {
         
